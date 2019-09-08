@@ -1,6 +1,7 @@
 import React from "react";
 import { render } from "react-dom";
 import { Pet } from "./Pet";
+import { SearchParams } from "./SearchParams";
 
 const App = () => {
   return (
@@ -13,4 +14,6 @@ const App = () => {
   );
 };
 
-render(<App />, document.getElementById("root"));
+render(<SearchParams />, document.getElementById("root"));
+//render(<App />, document.getElementById("root"));
+
